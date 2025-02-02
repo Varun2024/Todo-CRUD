@@ -8,7 +8,7 @@ const TodoForm = ({addTodo}) => {
     e.preventDefault()
 
     // sending value to todo wrapper using props, here addtodo
-    addTodo(value)
+    addTodo(value) // todo == value
 
     // after submission clears the input field
     setVlaue("")
